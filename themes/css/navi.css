@@ -1,0 +1,118 @@
+﻿body
+{
+    margin:0;
+    padding:0;
+}
+ul
+{
+      list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:GrayText;
+   
+}
+li
+{
+    float:left;
+    text-decoration:none;
+}
+li a,.drop2
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-family:Calibri;
+    font-size:20px;
+    padding:15px 66px;
+    text-decoration: none;
+    margin-left:18px;
+
+}
+li a:hover, .drop:hover .drop2 {
+    background-color:#56bbce;
+    text-decoration:none;
+}
+li.drop {
+    display: inline-block;
+    text-decoration:none;
+}
+
+.drop3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.drop3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.drop3 a:hover {background-color:#56bbce;
+                color:white;
+}
+
+.drop:hover .drop3 {
+    display: block;
+}
+
+
+
+
+
+
+.style{
+    font-family:Calibri;
+    font-size:60px;
+    font-weight:bold;
+    color:blue;
+}
+.stylemenu{
+    margin-left:100px;
+    font-family:Calibri;
+    font-size:25px;
+    font-weight:inherit;
+    color:GrayText;
+}
+.stylemenu1
+{
+    margin-left:700px;
+    margin-top:-250px;
+    font-family:Calibri;
+    font-size:25px;
+    font-weight:inherit;
+    color:GrayText;
+}
+
+.regform
+{
+    text-align:center;
+    background-color:aliceblue;
+
+}
+.faq
+{
+    color:blueviolet;
+    font-family:Calibri;
+    font-size:17px;
+}
+.mar
+{
+    height:30px;
+    width:1350px;
+    background-color:#8fd7e8;
+    color:#2f2d2d;
+    font-family:Calibri;
+    font-style:normal;
+    font-size:20px;
+}
+.img
+{
+    margin-left:200px;
+}
